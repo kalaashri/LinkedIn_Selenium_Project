@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T14:53:20 CEST" name="LinkedIn" finished-at="2024-07-31T14:53:38 CEST" duration-ms="17753">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T14:53:20 CEST" name="C:/Users/shanm/IdeaProjects/Selenium" finished-at="2024-07-31T14:53:38 CEST" duration-ms="17753">
+      <class name="com.LinkedIn.qa.Test.SignInTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.LinkedIn.qa.Test.SignInTest@8909f18]" started-at="2024-07-31T14:53:20 CEST" name="SetUp" finished-at="2024-07-31T14:53:23 CEST" duration-ms="3478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ClickonSignIn()[pri:0, instance:com.LinkedIn.qa.Test.SignInTest@8909f18]" started-at="2024-07-31T14:53:23 CEST" name="ClickonSignIn" finished-at="2024-07-31T14:53:24 CEST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonSignIn -->
+      </class> <!-- com.LinkedIn.qa.Test.SignInTest -->
+      <class name="com.LinkedIn.qa.Test.LoginPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.LinkedIn.qa.Test.LoginPageTest@222114ba]" started-at="2024-07-31T14:53:24 CEST" name="SetUp" finished-at="2024-07-31T14:53:28 CEST" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Logo()[pri:0, instance:com.LinkedIn.qa.Test.LoginPageTest@222114ba]" started-at="2024-07-31T14:53:28 CEST" name="Logo" finished-at="2024-07-31T14:53:28 CEST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.LinkedIn.qa.Test.LoginPageTest@222114ba]" started-at="2024-07-31T14:53:28 CEST" name="SetUp" finished-at="2024-07-31T14:53:32 CEST" duration-ms="4025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Loginverification()[pri:1, instance:com.LinkedIn.qa.Test.LoginPageTest@222114ba]" started-at="2024-07-31T14:53:32 CEST" name="Loginverification" finished-at="2024-07-31T14:53:38 CEST" duration-ms="5268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginverification -->
+      </class> <!-- com.LinkedIn.qa.Test.LoginPageTest -->
+    </test> <!-- C:/Users/shanm/IdeaProjects/Selenium -->
+  </suite> <!-- LinkedIn -->
+</testng-results>
