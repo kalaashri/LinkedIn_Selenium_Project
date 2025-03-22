@@ -1,6 +1,7 @@
 package com.LinkedIn.qa.Test;
 
 
+import com.LinkedIn.qa.Pages.HomePage;
 import com.LinkedIn.qa.Pages.LoginPage;
 
 import com.LinkedIn.qa.Pages.SignIn;
@@ -31,6 +32,10 @@ public class LoginPageTest extends TestBase {
 @Test(priority = 0)
 public void Logo()
 {
+    //added new
+    HomePage homePage = new HomePage(TestBase.driver);
+    homePage.logo("logoText");
+    
     boolean ans=lp.LinkedInLogo();
     Assert.assertTrue(ans);
 }
